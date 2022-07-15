@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Desafio Jquery</title>
+	
+	
+	<!-- Estilos -->	
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+	<!-- Google font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<section class="desafio-01">
+		<div class="column-2">
+		</div>
+		
+		<div class="column-8">
+			    <div  class="imagen">
+					<img id="imagen" src="assets/img/imagen_01.png" alt="dibujo_01">
+				</div>
+				<div class="boton">
+					<button onclick="BordeColor()">Cambiar Borde</button>
+				</div>
+		</div>
+		
+		<div class="column-2">
+		</div>
+
+	</section>
+	
+	
+	<section class="desafio-02 titulo">		
+		<div class="column-1">
+			<div  class="texto">
+				<h1>Puedes llevar un máximo de 10 Stikers</h1>
+			</div>
+		</div>
+	</section>	
+	
+	
+	<section class="desafio-02">
+		
+		<div class="column-3">
+			
+			<div  class="imagen">
+				<img src="assets/img/imagen_02.png" alt="dibujo_02">
+			</div>
+			
+			<div class="input">
+				<input placeholder="Cantidad" id="Stickers01">
+			</div>	
+			
+		</div>
+		
+		<div class="column-3">
+			<div  class="imagen">
+				<img src="assets/img/imagen_03.png" alt="dibujo_03">
+			</div>
+			
+			<div class="input">
+				<input placeholder="Cantidad" id="Stickers02">
+			</div>	
+		</div>
+		
+		<div class="column-3">
+			<div  class="imagen">
+				<img src="assets/img/imagen_04.png" alt="dibujo_04">
+			</div>
+			
+			<div class="input">
+				<input placeholder="Cantidad" id="Stickers03">
+			</div>	
+		</div>
+		
+	</section>
+	
+	<section class="desafio-02 resultado">		
+		<div class="column-1">
+			<div  class="texto">
+				
+			</div>
+			<div class="boton">
+				<h2 id="NumeroStiker"></h2>
+				<h2 id="Mensaje"> </h2>
+				<button class="boton-02" onclick="Resultados()">Verificar</button>
+			</div>	
+		</div>
+	</section>
+
+	
+	
+<!-- Desafio 03-->
+	
+	
+	<section class="desafio-03 titulo">		
+		<div class="column-1">
+			<div  class="texto">
+				<h1 style="color:#ffffff">Ingresa un password</h1>
+			</div>
+		</div>
+	</section>		
+	
+	
+	<section class="desafio-03">
+		
+			
+			<div class="column-3">
+				<select id="NumeroUno">
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				  <option value="6">6</option>
+				  <option value="7">7</option>
+				  <option value="8">8</option>
+				  <option value="9">9</option> 	
+				</select>
+				
+				
+			</div>
+			
+			<div class="column-3">
+				<select id="NumeroDos">
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				  <option value="6">6</option>
+				  <option value="7">7</option>
+				  <option value="8">8</option>
+				  <option value="9">9</option> 		
+				</select>			
+			</div>
+			
+			<div class="column-3">
+				<select id="NumeroTres">
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				  <option value="6">6</option>
+				  <option value="7">7</option>
+				  <option value="8">8</option>
+				  <option value="9">9</option> 	
+				</select>
+			</div>
+
+	</section>	
+	
+	
+	<section class="desafio-03 resultado">		
+		<div class="column-1">
+			<div  class="texto">
+				
+			</div>
+			<div class="boton">
+				<h2 class="blanco" id="prueba"> </h2>
+				<button class="boton-02" onclick="Password()">Verificar</button>
+			</div>	
+		</div>
+	</section>
+
+	
+<script src="assets/js/script.js"></script>	
+	
+</body>
+</html>
